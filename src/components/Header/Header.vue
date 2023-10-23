@@ -7,10 +7,10 @@
         <div class="container">
             <h1>Learn Languages</h1>
             <nav>
-                <a href="">Inicio</a>
-                <a href="">Linguagens</a>
-                <a href="">Interpretadores</a>
-                <a href="">Exercícios</a>
+                <a href="" class="nav">Inicio</a>
+                <a href="" class="nav">Linguagens</a>
+                <a href="" class="nav">Interpretadores</a>
+                <a href="" class="nav">Exercícios</a>
             </nav>
         </div>
     </header>
@@ -50,7 +50,7 @@ nav {
 }
 
 
-a {
+a.nav {
     text-decoration: none;
     color: white;
     border-bottom: 2px solid white;
@@ -58,7 +58,7 @@ a {
     font-size: 15pt;
 }
 
-a:hover {
+a.nav:hover {
     opacity: 1;
     transition: 0.5s;
     border-bottom: 2px solid black;
