@@ -9,10 +9,10 @@
         <p class="legend">Documentando, Aprendendo e Ensinando Diversas Linguagens</p>
 
         <div id="containerLanguages">
-            <div class="language">
+            <router-link to="../views/Languages/JavaScript/javascript.vue" class="language">
                 <img src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png" alt="" class="photosLanguage">
                 <p>JavaScript</p>
-            </div>
+            </router-link>
             <div class="language">
                 <img src="https://th.bing.com/th/id/OIP.dJToM1TiZiJA0GYwzDHwjQHaHY?pid=ImgDet&rs=1" alt="" class="photosLanguage">
                 <p>Python</p>
