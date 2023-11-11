@@ -1,13 +1,10 @@
 <script setup>
-import Header from './components/Header/header.vue';
-import Main from './components/Main/main.vue';
-import Footer from './components/Footer/footer.vue';
-</script>
 
-<template>
-  <Header />
-  <Main />
-  <Footer />
+import { RouterLink, RouterView } from 'vue-router'
+
+</script>
+<template>  
+<RouterView />
 </template>
 
 <style scoped>
@@ -18,3 +15,4 @@ import Footer from './components/Footer/footer.vue';
     font-family: 'Roboto', sans-serif;
 }
 </style>
+

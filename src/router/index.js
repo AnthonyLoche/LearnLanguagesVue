@@ -1,16 +1,21 @@
-import { createWebHistory, createRouter } from 'vue-router'
-
-const routes = [
-    { path: '/', component: Home }, // Adicione sua rota raiz
-    { path: '/javascript', component: JavaScript }, // Rota para JavaScript
-    { path: '/python', component: Python }, // Rota para Python
-    // Adicione rotas para outras linguagens aqui
-  
-]
+import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from '../views/Home/home.vue';
+import JavaScript from '../views/Languages/Javascript/javascript.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: HomeView
+    },
+    {
+      path: '/javascript',
+      name: 'javascript',
+      component: JavaScript
+    }
+  ]
 })
 
 export default router
