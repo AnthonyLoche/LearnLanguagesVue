@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <footer>
         <div class="container">
@@ -13,15 +9,12 @@
                 <div class="item">
                     <p>Anthony Gabriel Loche dos Reis</p>
                     <p>Email: anthonylocheifc@gmail.com</p>
-                    <p>Telefone: (11) 9 9999-9999</p>
                 </div>
                 <div class="item">
                     <p>Jonatas Silva Peraza</p>
                     <p>Email: jonatasperaza.if@gmail.com</p>
-                    <p>Telefone: (11) 9 9999-9999</p>
                 </div>
             </div>
-
         </div>
     </footer>
 </template>
@@ -31,7 +24,6 @@
 
 footer {
     bottom: 0;
-    position: relative;
     background-color: var(--corPrincipal);
     background-image: linear-gradient(120deg, var(--corPrincipal), var(--corSecundaria));
 }

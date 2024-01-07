@@ -36,7 +36,7 @@ header {
 }
 
 .container {
-    width: 1000px;
+    width: auto;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,6 @@ a {
     color: white;
     border-bottom: 2px solid white;
     opacity: 0.5;
-    font-size: 15pt;
 }
 
 a:hover {
@@ -67,7 +66,6 @@ a:hover {
 
 @media screen and (max-width:1024px) {
     .container {
-        width: 1000px;
         margin: auto;
         display: flex;
         justify-content: center;
